@@ -4,15 +4,19 @@ require("dotenv").config();
 
 //@ Configura o servidor
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT; //pegando a variavel do arquivo .env(PORT)
 
 //@ Cria uma rota para o endereço raiz.
 app.get("/", (req, res) => {
-res.send("Hello DW3!")
+    res.send("Hello DW3!")
+})
+
+app.get("/teste", (req, res) => {
+    res.send("teste!")
 })
 
 //@ Inicia o servidor
 app.listen(port, () => {
-console.log("Executando a aplicação:" , process.env.APP_NAME);
-console.log("Example app listening on port:", port);
+    console.log("Executando a aplicação:" , process.env.APP_NAME);
+    console.log("Example app listening on port:", port);
 })
