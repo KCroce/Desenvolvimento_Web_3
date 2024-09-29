@@ -1,0 +1,2 @@
+###Pegando tudo
+GET http://localhost:3000/salas

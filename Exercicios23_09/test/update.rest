@@ -1,0 +1,9 @@
+### Update / 1  referente ao ID da sala
+PUT http://localhost:3000/salas/1
+Content-Type: application/json
+
+{
+  "descricao": "Sala 101 - Atualizada",
+  "localizacao": "Bloco A",
+  "capacidade": 35
+}

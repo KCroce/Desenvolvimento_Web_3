@@ -1,0 +1,2 @@
+###Por id ID / 1  referente ao ID da sala
+GET http://localhost:3000/salas/1

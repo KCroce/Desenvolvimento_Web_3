@@ -1,0 +1,2 @@
+###Delete por id/ 1  referente ao ID da sala
+DELETE http://localhost:3000/salas/1

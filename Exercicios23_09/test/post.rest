@@ -1,0 +1,9 @@
+### Insert a new classroom
+POST http://localhost:3000/salas
+Content-Type: application/json
+
+{
+  "descricao": "Sala 104",
+  "localizacao": "Bloco D",
+  "capacidade": 40
+}
